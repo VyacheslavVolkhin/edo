@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <script src="./js/jquery.min.js" defer></script>
+    <script src="./js/slick.min.js" defer></script>
+    <script src="./js/jquery.fancybox.min.js" defer></script>
+    <script src="./js/jquery.maskedinput.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+
+        <!-- header -->
+        <header class="header">
+            <div class="inner-wrap">
+                <div class="logo-wrap">
+                    <a href="" class="logo">PRO-МТ.ЭДО</a>
+                </div>
+                <div class="menu-wrap popup-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-menu js-btn-popup-toggle"></a>
+                    <div class="popup-content-block js-popup-block">
+                        <ul class="menu">
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">дашборд</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu01.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">процессы</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu02.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">задачи</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu03.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu active">
+                                    <div class="button-title">файлы</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu04.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">настройки</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu05.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- page -->
+        <div class="page-full">
+
+            <!--page-actions-box-->
+            <div class="page-actions-box">
+                <div class="nav-inner-wrap">
+                    <div class="nav-wrap">
+                        <a href="" class="btn button-border">
+                            <div class="button-ico">
+                                <img src="./img/icons/arrow-back.svg" alt="">
+                            </div>
+                            <div class="button-title">Назад</div>
+                        </a>
+                    </div>
+                    <div class="title-wrap">
+                        <h1 class="page-title title-att"><a href="">Файловое хранилище</a> \ <a href="">Договора</a> \</h1>
+                    </div>
+                </div>
+            </div>
+            <!--/page-actions-box-->
+
+            <!--page-buttons-box-->
+            <div class="page-buttons-box">
+                <div class="check-inner-wrap">
+                    <div class="frm-select select-large select-clear">
+                        <input type="checkbox" id="all" checked>
+                        <label for="all"></label>
+                    </div>
+                </div>
+                <div class="buttons-inner-wrap">
+                    <div class="button-wrap">
+                        <a href="" class="btn-action-ico button-action">
+                            <img src="./img/icons/button-download.png" alt="">
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn-action-ico button-action">
+                            <img src="./img/icons/button-sort.png" alt="">
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn-action-ico button-action">
+                            <img src="./img/icons/button-filter.png" alt="">
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn-action-ico button-action">
+                            <img src="./img/icons/button-edit.png" alt="">
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn-action-ico button-action">
+                            <img src="./img/icons/button-upload.png" alt="">
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn-action-ico button-action active">
+                            <img src="./img/icons/button-file-del.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/page-buttons-box-->
+
+            <!--folders-list-box-->
+            <div class="folders-list-box">
+                <ul class="list list-rows">
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder01" checked>
+                            <label for="folder01">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/folder-border.png" alt="">
+                                </div>
+                                <div class="lbl-title">ООО “Рога и копыта”</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder02">
+                            <label for="folder02">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/folder.png" alt="">
+                                </div>
+                                <div class="lbl-title">Рыба договора</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder03">
+                            <label for="folder03">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-acr.png" alt="">
+                                </div>
+                                <div class="lbl-title">Договор с ООО “Лента”</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder04" checked>
+                            <label for="folder04">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-doc.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.ai</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder05">
+                            <label for="folder05">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-pdf.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развития.pdf</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder06">
+                            <label for="folder06">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-png.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.docx</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder07">
+                            <label for="folder07">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-ppt.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.txt</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder08" checked>
+                            <label for="folder08">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-txt.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.xlsx</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder09" checked>
+                            <label for="folder09">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-xls.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.ai</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder10" checked>
+                            <label for="folder10">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-zip.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.pdf</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder11">
+                            <label for="folder11">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/folder-border.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развитияОтдел развитияОтдел развитияОтдел развития.docx</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder12">
+                            <label for="folder12">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/folder.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.txt</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder13">
+                            <label for="folder13">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-acr.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.xlsx</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder14">
+                            <label for="folder14">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-doc.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.ai</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder15" checked>
+                            <label for="folder15">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-pdf.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развития.pdf</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder16">
+                            <label for="folder16">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-png.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.pptx</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder17">
+                            <label for="folder17">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-ppt.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.zip</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder18">
+                            <label for="folder18">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-txt.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.png</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder19">
+                            <label for="folder19">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-xls.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.jpg</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="frm-select select-main select-main-row">
+                            <input type="checkbox" id="folder20">
+                            <label for="folder20">
+                                <div class="lbl-ico">
+                                    <img src="./img/icons/file-zip.png" alt="">
+                                </div>
+                                <div class="lbl-title">Отдел развития.img</div>
+                                <div class="lbl-title-info">22.11.2023 147 КБ</div>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--/folders-list-box-->
+
+        </div>
+        <!-- /page -->
+
+
+
+    </div>
+    <!-- /wrap -->
+
+
+
+</body>
+
+</html>
