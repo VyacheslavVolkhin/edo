@@ -294,6 +294,7 @@ body {
 .header .inner-wrap {
   height: 70px;
   padding-left: 258px;
+  max-width: 100%;
 }
 .header .menu-wrap {
   width: 70px;
