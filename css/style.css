@@ -803,6 +803,49 @@ body {
 /* ----------------------------------- *\
 			content styles
 \* ----------------------------------- */
+.table-toggle-box {
+  margin-bottom: 50px;
+  margin-bottom: 5rem;
+}
+.table-toggle-box .tbl-toggle-wrap {
+  margin-bottom: 30px;
+}
+.table-toggle-box .popup-content-block {
+  display: none;
+  padding: 20px 0 0 50px;
+}
+.table-toggle-box .table-inner-box,
+.table-toggle-box .table-inner-box table {
+  margin-bottom: 0;
+}
+.table-toggle-box .btn-popup {
+  width: 400px;
+  max-width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 14px;
+}
+.table-toggle-box .btn-popup.button-border:hover,
+.table-toggle-box .btn-popup.button-border.active {
+  background-color: transparent;
+  color: var(--clr-bg);
+}
+.table-toggle-box .btn-popup:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: url(../img/icons/view-hidden.png) center no-repeat;
+  background-size: 18px auto;
+  top: 50%;
+  right: 10px;
+  margin-top: -12px;
+}
+.table-toggle-box .btn-popup.active:before {
+  background-image: url(../img/icons/view-visible.png);
+}
 .statuses-box {
   margin-bottom: 50px;
   margin-bottom: 5rem;

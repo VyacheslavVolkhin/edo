@@ -1,6 +1,49 @@
 /* ----------------------------------- *\
 			content styles
 \* ----------------------------------- */
+.table-toggle-box {
+	margin-bottom: 5rem;
+	.tbl-toggle-wrap {
+		margin-bottom: 30px;
+	}
+	.popup-content-block {
+		display: none;
+		padding: 20px 0 0 50px;
+	}
+	.table-inner-box, .table-inner-box table {
+		margin-bottom: 0;
+	}
+	.btn-popup {
+		width: 400px;
+		max-width: 100%;
+		font-weight: bold;
+		border-radius: 5px;
+		height: 30px;
+		font-size: 14px;
+		&.button-border {
+			&:hover, &.active {
+				background-color: transparent;
+				color: var(--clr-bg);
+			}
+		}
+		&:before {
+			content: "";
+			display: block;
+			width: 24px;
+			height: 24px;
+			position: absolute;
+			background: url(../img/icons/view-hidden.png) center no-repeat;
+			background-size: 18px auto;
+			top: 50%;right: 10px;
+			margin-top: -12px;
+		}
+		&.active {
+			&:before {
+				background-image: url(../img/icons/view-visible.png);
+			}
+		}
+	}
+}
 .statuses-box {
 	margin-bottom: 5rem;
 	.item-wrap {
