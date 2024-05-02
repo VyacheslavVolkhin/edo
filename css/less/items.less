@@ -1,6 +1,124 @@
 /* ----------------------------------- *\
 			items styles
 \* ----------------------------------- */
+.item-tile-status {
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+	line-height: 1.5;
+	color: rgba(73, 70, 70, 0.70);
+	.tile-title {
+		width: 205px;
+		padding: 0 10px 0 0;
+		text-align: right;
+		flex-shrink: 0;
+		&~.tile-title {
+			flex: 1;
+			padding: 0 0 0 10px;
+			text-align: left;
+		}
+	}
+	.tile-ico {
+		width: 40px;height: 40px;
+	}
+	.btn-action-ico {
+		width: 30px;height: 30px;
+		flex-shrink: 0;
+		img, svg {
+			max-width: 20px;
+			max-height: 20px;
+		}
+		&~.tile-title {
+			padding-left: 5px;
+		}
+	}
+}
+.item-tile-info {
+	display: block;
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid rgba(73, 70, 70, 0.50);
+	background: rgba(217, 217, 217, 0.00);
+	padding: 9px 20px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	b {
+		font-weight: 600;
+	}
+	&.tile-row {
+		display: flex;
+		min-height: 56px;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-right: 0;
+		.info-title-text {
+			padding: 0 20px 0 0;
+			width: auto;
+			min-width: 50%;
+			flex-shrink: 0;
+		}
+	}
+	.text-light {
+		font-weight: 400;
+		color: rgba(73, 70, 70, 0.50);
+	}
+}
+.item-tile-dashboard-panel {
+	border-radius: 2rem;
+	background: var(--clr-bg);
+	color: #fff;
+	padding: 17px 3rem 10px 3rem;
+	margin: 0 auto;
+	text-align: center;
+	min-height: 100%;
+	max-width: 34.4rem;
+	display: flex;
+	flex-direction: column;
+	.tile-sections-wrap {
+		display: flex;
+		margin: 0 -10px;
+	}
+	.tile-section-wrap {
+		width: 50%;
+		flex-shrink: 0;
+		padding: 0 10px;
+		flex: 1;
+	}
+	.tile-footer-wrap {
+		width: 100%;
+		flex-shrink: 0;
+		margin-top: 5rem;
+	}
+	.tile-section-title, .tile-footer-title {
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: (33/14);
+		text-align: center;
+		margin: 0;
+	}
+	.tile-footer-title {
+		font-size: 16px;
+		line-height: (33/16);
+	}
+	.tile-section-value {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 108px;
+		height: 108px;
+		line-height: 108px;
+		display: block;
+		position: relative;
+		background: #fff;
+		overflow: hidden;
+		text-align: center;
+		color: var(--clr-bg);
+		font-size: 24px;
+		font-weight: bold;
+		border-radius: 20px;
+	}
+}
 :is([class^="item-tile"]) {
     &:hover {
         .elm-photo, .tile-photo {

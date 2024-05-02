@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <script src="./js/jquery.min.js" defer></script>
+    <script src="./js/slick.min.js" defer></script>
+    <script src="./js/jquery.fancybox.min.js" defer></script>
+    <script src="./js/jquery.maskedinput.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+
+        <!-- header -->
+        <header class="header">
+            <div class="inner-wrap">
+                <div class="logo-wrap">
+                    <a href="" class="logo">PRO-МТ.ЭДО</a>
+                </div>
+                <div class="menu-wrap popup-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-menu js-btn-popup-toggle"></a>
+                    <div class="popup-content-block js-popup-block">
+                        <ul class="menu">
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">дашборд</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu01.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">процессы</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu02.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">задачи</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu03.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu active">
+                                    <div class="button-title">файлы</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu04.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">настройки</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu05.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- page -->
+        <div class="page-full">
+
+            <!--page-actions-box-->
+            <div class="page-actions-box filter-include">
+                <div class="nav-inner-wrap">
+                    <div class="nav-wrap">
+                        <a href="" class="btn button-border">
+                            <div class="button-ico">
+                                <img src="./img/icons/arrow-back.svg" alt="">
+                            </div>
+                            <div class="button-title">Назад</div>
+                        </a>
+                    </div>
+                    <div class="title-wrap">
+                        <h1 class="page-title title-att"><a href="">Процессы</a></h1>
+                    </div>
+                </div>
+                <div class="filter-inner-wrap">
+                    <div class="button-wrap">
+                        <a href="" class="btn button-att button-border">
+                            <div class="button-title">Создать новый процесс</div>
+                            <div class="button-ico">
+                                <img src="./img/icons/button-create.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn button-border">
+                            <div class="button-title">Прикрепить файлы</div>
+                            <div class="button-ico">
+                                <img src="./img/icons/button-attach.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="button-wrap button-300">
+                        <select class="form-input inp-att" required>
+                            <option selected disabled hidden value="">Статус</option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!--/page-actions-box-->
+
+            <!--tabs-box-->
+            <div class="tabs-box">
+                <div class="menu-wrap js-tabs-nav">
+                    <ul class="menu">
+                        <li><a href="" class="btn button-tab-small" data-tab="tab01">Карточка</a></li>
+                        <li><a href="" class="btn button-tab-small" data-tab="tab02">Вложения</a></li>
+                        <li><a href="" class="btn button-tab-small active" data-tab="tab03">Статусы</a></li>
+                        <li><a href="" class="btn button-tab-small" data-tab="tab04">Сценарий</a></li>
+                    </ul>
+                </div>
+                <div class="actions-wrap js-tab-block" data-tab="tab02">
+                    <div class="check-wrap">
+                        <div class="frm-select select-att">
+                            <input type="checkbox" id="action01">
+                            <label for="action01"><b><i>Выбрать файлы</i></b></label>
+                        </div>
+                    </div>
+                    <div class="action-wrap">
+                        <a href="" class="btn-action-ico">
+                            <img src="./img/icons/download.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/tabs-box-->
+
+            <!--section-content-box-->
+            <div class="section-content-box section-separate tab-box js-tab-block" data-tab="tab01">
+
+                <!--content-wrap-->
+                <div class="content-wrap">
+
+                    <!--article-box-->
+                    <div class="article-box">
+                        <h3 class="inner-title">Процесс: <b>ДОГОВОР АРЕНДЫ</b></h3>
+                        <h3 class="inner-title">Тема: <b>Согласование договора аренды общежития под рабочих ВИС</b></h3>
+                        <h3 class="inner-title">Описание:</h3>
+                        <p>Что такое параллельная структура в предложении?
+                            Параллельная структура относится к сбалансированному и последовательному использованию грамматических структур в предложении или серии предложений. Это предполагает использование одной и той же грамматической формы для схожих элементов или идей. </p>
+                        <p>Например, «Ей нравится плавать, бегать и ходить в походы» демонстрирует параллельную структуру, поскольку все виды деятельности представлены в форме герундия. <br>Как определить, какое предложение содержит параллельную структуру?</p>
+                        <p>Чтобы определить параллельную структуру в предложении, найдите элементы, которые перечислены или сравниваются. Проверьте, следуют ли они последовательному грамматическому образцу. Если элементы имеют одинаковую форму (например, все существительные, все глаголы или все словосочетания), то предложение демонстрирует параллельную структуру. <br>В чем разница между зависимым предложением и независимым предложением?</p>
+                        <p>Независимые предложения могут стоять отдельно как полные предложения, выражая полную мысль с подлежащим и сказуемым. Однако зависимые предложения полагаются на независимые предложения для передачи смысла и не могут функционировать как полные предложения сами по себе.</p>
+                    </div>
+                    <!--/article-box-->
+
+                </div>
+                <!--/content-wrap-->
+
+
+                <!--content-side-wrap-->
+                <div class="content-side-wrap">
+
+                    <!--info-box-->
+                    <div class="info-box">
+                        <div class="items-wrap">
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <div class="item-tile-info">
+                                    <div class="info-title-text">Автор: <b>Иванов Иван Иванович</b></div>
+                                    <div class="info-title-text text-light">Отдел: Бухгалтерия</div>
+                                    <div class="info-title-text text-light">Должность: Помощник бухгалтера</div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <div class="item-tile-info tile-row">
+                                    <div class="info-title-text">Начало: <b>20.03.2023</b></div>
+                                    <div class="info-title-text">Дэдлайн: <b>20.03.2023</b></div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                        </div>
+                    </div>
+                    <!--/info-box-->
+
+                    <div class="table-inner-box">
+                        <div class="tbl-inner-wrap">
+                            <table>
+                                <col class="col-check">
+                                <col class="col-check">
+                                <col class="col-check">
+                                <col>
+                                <thead>
+                                    <tr>
+                                        <th>О</th>
+                                        <th>П</th>
+                                        <th>С</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <!-- tr att -->
+                                    <tr class="tr-att">
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-01-01">
+                                                <label for="sel01-01-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-01-02">
+                                                <label for="sel01-01-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-01-03">
+                                                <label for="sel01-01-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title title-att">Руководство</div>
+                                            <a href="" class="btn-action-ico ico-view-toggle js-tbl-row-toggle"></a>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr att -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-02-01">
+                                                <label for="sel01-02-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-02-02">
+                                                <label for="sel01-02-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-02-03">
+                                                <label for="sel01-02-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-03-01">
+                                                <label for="sel01-03-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-03-02">
+                                                <label for="sel01-03-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-03-03">
+                                                <label for="sel01-03-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                </tbody>
+                                <tbody>
+                                    <!-- tr att -->
+                                    <tr class="tr-att active">
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-04-01">
+                                                <label for="sel01-04-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-04-02">
+                                                <label for="sel01-04-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-04-03">
+                                                <label for="sel01-04-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title title-att">Маркетинг</div>
+                                            <a href="" class="btn-action-ico ico-view-toggle js-tbl-row-toggle active"></a>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr att -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-05-01">
+                                                <label for="sel01-05-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-05-02">
+                                                <label for="sel01-05-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-05-03">
+                                                <label for="sel01-05-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-06-01">
+                                                <label for="sel01-06-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-06-02">
+                                                <label for="sel01-06-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-06-03">
+                                                <label for="sel01-06-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title"><b>Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></b></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-07-01">
+                                                <label for="sel01-07-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-07-02">
+                                                <label for="sel01-07-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-07-03">
+                                                <label for="sel01-07-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-08-01">
+                                                <label for="sel01-08-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-08-02">
+                                                <label for="sel01-08-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-08-03">
+                                                <label for="sel01-08-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                </tbody>
+                                <tbody>
+                                    <!-- tr att -->
+                                    <tr class="tr-att">
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-09-01">
+                                                <label for="sel01-09-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" checked id="sel01-09-02">
+                                                <label for="sel01-09-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-09-03">
+                                                <label for="sel01-09-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title title-att">АХО</div>
+                                            <a href="" class="btn-action-ico ico-view-toggle js-tbl-row-toggle"></a>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr att -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-10-01">
+                                                <label for="sel01-10-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-10-02">
+                                                <label for="sel01-10-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-10-03">
+                                                <label for="sel01-10-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-11-01">
+                                                <label for="sel01-11-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-11-02">
+                                                <label for="sel01-11-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-11-03">
+                                                <label for="sel01-11-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title"><b>Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></b></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-12-01">
+                                                <label for="sel01-12-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-12-02">
+                                                <label for="sel01-12-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-12-03">
+                                                <label for="sel01-12-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-13-01">
+                                                <label for="sel01-13-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-13-02">
+                                                <label for="sel01-13-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-13-03">
+                                                <label for="sel01-13-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                </tbody>
+                                <tbody>
+                                    <!-- tr att -->
+                                    <tr class="tr-att">
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-14-01">
+                                                <label for="sel01-14-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-14-02">
+                                                <label for="sel01-14-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-14-03">
+                                                <label for="sel01-14-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title title-att">Бухгалтерия</div>
+                                            <a href="" class="btn-action-ico ico-view-toggle js-tbl-row-toggle"></a>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr att -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-15-01">
+                                                <label for="sel01-15-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-15-02">
+                                                <label for="sel01-15-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-15-03">
+                                                <label for="sel01-15-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-16-01">
+                                                <label for="sel01-16-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-16-02">
+                                                <label for="sel01-16-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-16-03">
+                                                <label for="sel01-16-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title"><b>Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></b></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-17-01">
+                                                <label for="sel01-17-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-17-02">
+                                                <label for="sel01-17-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-17-03">
+                                                <label for="sel01-17-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-18-01">
+                                                <label for="sel01-18-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-18-02">
+                                                <label for="sel01-18-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-18-03">
+                                                <label for="sel01-18-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                </tbody>
+                                <tbody>
+                                    <!-- tr att -->
+                                    <tr class="tr-att active">
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-19-01">
+                                                <label for="sel01-19-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-19-02">
+                                                <label for="sel01-19-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear select-att">
+                                                <input type="checkbox" id="sel01-19-03">
+                                                <label for="sel01-19-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title title-att">Отдел кадров</div>
+                                            <a href="" class="btn-action-ico ico-view-toggle js-tbl-row-toggle active"></a>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr att -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-20-01">
+                                                <label for="sel01-20-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-20-02">
+                                                <label for="sel01-20-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-20-03">
+                                                <label for="sel01-20-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-21-01">
+                                                <label for="sel01-21-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-21-02">
+                                                <label for="sel01-21-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-21-03">
+                                                <label for="sel01-21-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title"><b>Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></b></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-22-01">
+                                                <label for="sel01-22-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-22-02">
+                                                <label for="sel01-22-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" checked id="sel01-22-03">
+                                                <label for="sel01-22-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                    <!-- tr -->
+                                    <tr>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-23-01">
+                                                <label for="sel01-23-01"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-23-02">
+                                                <label for="sel01-23-02"></label>
+                                            </div>
+                                        </td>
+                                        <td class="td-check">
+                                            <div class="frm-select select-clear">
+                                                <input type="checkbox" id="sel01-23-03">
+                                                <label for="sel01-23-03"></label>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-title">Иванов Ивано Иванович <span class="td-title-info">(Генеральный директор)</span></div>
+                                        </td>
+                                    </tr>
+                                    <!-- /tr -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/content-side-wrap-->
+
+            </div>
+            <!--/section-content-box-->
+
+            <!--tab-box 02-->
+            <div class="tab-box js-tab-block" data-tab="tab02">
+
+                <!--folders-list-box-->
+                <div class="folders-list-box">
+                    <ul class="list list-rows">
+
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder05">
+                                <label for="folder05">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-pdf.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развития.pdf</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder06">
+                                <label for="folder06">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-png.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.docx</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder07">
+                                <label for="folder07">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-ppt.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.txt</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder08" checked>
+                                <label for="folder08">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-txt.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.xlsx</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder09" checked>
+                                <label for="folder09">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-xls.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.ai</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder10" checked>
+                                <label for="folder10">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-zip.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.pdf</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder11">
+                                <label for="folder11">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/folder-border.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развитияОтдел развитияОтдел развитияОтдел развития.docx</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder12">
+                                <label for="folder12">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/folder.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.txt</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder13">
+                                <label for="folder13">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-acr.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.xlsx</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <input type="checkbox" id="folder14">
+                                <label for="folder14">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-doc.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.ai</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <a href="" class="btn-action-ico ico-del"></a>
+                                <input type="checkbox" id="folder15" checked>
+                                <label for="folder15">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-pdf.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развитияОтдел развития.pdf</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <a href="" class="btn-action-ico ico-del"></a>
+                                <input type="checkbox" id="folder16">
+                                <label for="folder16">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-png.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.pptx</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <a href="" class="btn-action-ico ico-del"></a>
+                                <input type="checkbox" id="folder17">
+                                <label for="folder17">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-ppt.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.zip</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <a href="" class="btn-action-ico ico-del"></a>
+                                <input type="checkbox" id="folder18">
+                                <label for="folder18">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-txt.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.png</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <a href="" class="btn-action-ico ico-del"></a>
+                                <input type="checkbox" id="folder19">
+                                <label for="folder19">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-xls.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.jpg</div>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="frm-select select-main select-main-row">
+                                <a href="" class="btn-action-ico ico-del"></a>
+                                <input type="checkbox" id="folder20">
+                                <label for="folder20">
+                                    <div class="lbl-ico">
+                                        <img src="./img/icons/file-zip.png" alt="">
+                                    </div>
+                                    <div class="lbl-title">Отдел развития.img</div>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--/folders-list-box-->
+
+            </div>
+            <!--/tab-box-->
+
+            <!--tab-box 03-->
+            <div class="tab-box js-tab-block" data-tab="tab03">
+
+                <!--statuses-box-->
+                <div class="statuses-box">
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Новая задача <br>11.06.2023 11:23</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-new.png" alt="">
+                                </div>
+                                <div class="tile-title">Бедрин Андрей Юрьвич <br>(Руководитель отдела программной разработки)</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Направлена в работу <br>11.06.2023 11:23</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-arrow.png" alt="">
+                                </div>
+                                <div class="tile-title">Бедрин Андрей Юрьвич <br>(Руководитель отдела программной разработки)</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title"></div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-empty.svg" alt="">
+                                </div>
+                                <div class="tile-title">Иванов Иван Иванович <br>(Старший специалист отдела продаж)</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Выполнено <br>11.06.2023 11:23</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-full.svg" alt="">
+                                </div>
+                                <a href="" class="btn-action-ico">
+                                    <img src="./img/icons/button-attach.svg" alt="">
+                                </a>
+                                <div class="tile-title">Петров Петр Петрович <br>(Старший специалист отдела продаж)</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Просмотрено <br>11.06.2023 11:23</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-empty.svg" alt="">
+                                </div>
+                                <div class="tile-title">Сидоров Сидор Сидорович <br>(Старший специалист отдела продаж)</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Выполнено <br>11.06.2023 11:23</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-full.svg" alt="">
+                                </div>
+                                <a href="" class="btn-action-ico">
+                                    <img src="./img/icons/button-attach.svg" alt="">
+                                </a>
+                                <div class="tile-title">Баранов Олег Петрович <br>(Старший специалист отдела продаж)</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Отмена</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-cross.png" alt="">
+                                </div>
+                                <div class="tile-title">Пишется причина “Отмены” </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Возвращено в работу в работу</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-refresh.png" alt="">
+                                </div>
+                                <div class="tile-title">Пишется причина “Возврата в работу” </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Истекли сроки</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-timer.png" alt="">
+                                </div>
+                                <div class="tile-title">Пишется дата Дэдлайна </div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap">
+                            <div class="item-tile-status">
+                                <div class="tile-title">Выполнено</div>
+                                <div class="tile-ico">
+                                    <img src="./img/icons/status-check.png" alt="">
+                                </div>
+                                <div class="tile-title">Пишется дата и время закрытия процесса и ФИО и должность сотрудника</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                </div>
+                <!--/statuses-box-->
+
+            </div>
+            <!--/tab-box-->
+
+            <!--tab-box 04-->
+            <div class="tab-box js-tab-block" data-tab="tab04">
+                04
+            </div>
+            <!--/tab-box-->
+
+
+        </div>
+        <!-- /page -->
+
+
+
+    </div>
+    <!-- /wrap -->
+
+
+
+</body>
+
+</html>

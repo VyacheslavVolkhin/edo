@@ -206,6 +206,44 @@ html {
 }
 @media (min-width: 1024px) {
 	.page-full {
-		min-width: calc(100% - 250px);
+		//min-width: calc(100% - 250px);
 	}
+	.wrap {
+		transition: padding-left ease 0.2s;
+	}
+	.popup-menu-wrap {
+		.popup-content-block {
+			transition: left ease 0.2s;
+		}
+	}
+	.header {
+		.logo {
+			transition: color ease 0.2s;
+		}
+	}
+	body {
+		&:not(.menu-show) {
+			.wrap {
+				padding-left: 0;
+			}
+			.header {
+				.logo {
+					color: var(--clr-base);
+				}
+			}
+			.popup-menu-wrap {
+				.popup-content-block {
+					left: -250px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 1024px) and (max-width: 1599px) {
+	.wrap {
+		padding-left: 0;
+	}
+}
+@media (min-width: 1600px) {
+	
 }

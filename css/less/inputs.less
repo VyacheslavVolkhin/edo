@@ -13,6 +13,14 @@
 	padding: 0 20px;
 	font-size: 12px;
 	color: var(--clr-base);
+	&.inp-att {
+		border-color: var(--clr-att);
+		background-color: var(--clr-att);
+		color: #fff;
+		option {
+			color: var(--clr-base);
+		}
+	}
 }
 textarea.form-input {
 
@@ -25,6 +33,7 @@ select.form-input {
     padding-right: 40px;
     background-image: url(../img/icons/arrow-select.svg);
     background-position: right 10px center;
+	background-size: 14px auto;;
     background-color: #fff;
     background-repeat: no-repeat;
     -moz-appearance: none;
@@ -65,6 +74,9 @@ select::-ms-expand {
 select.form-input:required:invalid {
     color: #ADADAD;
 }
+select.form-input.inp-att:required:invalid {
+    color: #fff;
+}
 .btn {
 	height: 40px;
 	border-radius: 5px;
@@ -88,6 +100,16 @@ select.form-input:required:invalid {
 			background-color: var(--clr-att-hover);
 			color: #fff;
 		}
+		&.button-border {
+			background-color: transparent;
+			border-color: var(--clr-att);
+			color: var(--clr-att);
+			&:hover, &.active {
+				background-color: var(--clr-att);
+				border-color: var(--clr-att);
+				color: #fff;
+			}
+		}
 	}
 	&.button-tab {
 		&.active {
@@ -99,6 +121,28 @@ select.form-input:required:invalid {
 				background-color: var(--clr-att-hover);
 				color: #fff;
 			}
+		}
+	}
+	&.button-tab-small {
+		height: 27px;
+		font-size: 15px;
+		padding: 0 20px;
+		width: 100%;
+		border-radius: 4px 4px 0 0;
+		border-width: 1px;
+		font-weight: 400;
+		background-color: transparent;
+		color: var(--clr-bg);
+        &:hover, &.active {
+            background-color: var(--clr-bg);
+            border-color: var(--clr-bg);
+			color: #fff;
+            .button-ico {
+                filter: brightness(0) invert(1);
+            }
+        }
+		&.active {
+			font-weight: 600;
 		}
 	}
 	&.button-clear {
@@ -124,14 +168,19 @@ select.form-input:required:invalid {
 			filter: none
 		}
 	}
+	&.button-reset {
+		align-items: flex-end;
+		.button-ico {
+			width: 20px;height: 20px;
+		}
+	}
     &.button-border {
-        &:not(:hover) {
-            background-color: transparent;
-            color: var(--clr-bg);
-        }
+		background-color: transparent;
+		color: var(--clr-bg);
         &:hover, &.active {
-            background-color: var(--clr-att-hover);
-            border-color: var(--clr-att-hover);
+            background-color: var(--clr-bg);
+            border-color: var(--clr-bg);
+			color: #fff;
             .button-ico {
                 filter: brightness(0) invert(1);
             }
@@ -230,6 +279,33 @@ select.form-input:required:invalid {
             box-shadow: none;
         }
     }
+	&.ico-del {
+		&:before {
+			background-image: url(../img/icons/del.svg);
+			background-size: 35px auto;
+		}
+	}
+	&.ico-minus, &.ico-plus {
+		&:before, &:after {
+			width: 16px;height: 2px;
+			background: var(--clr-bg);
+			position: absolute;
+			top: 50%;left: 50%;
+			margin: -1px 0 0 -8px;
+		}
+		&.btn.button-border {
+			&:hover {
+				&:before, &:after {
+					background-color: #fff;
+				}
+			}
+		}
+	}
+	&.ico-plus {
+		&:before {
+			transform: rotate(90deg);
+		}
+	}
     &.ico-arrow {
         z-index: 20;
         cursor: pointer;
@@ -247,6 +323,31 @@ select.form-input:required:invalid {
 	&.ico-move {
 		&:before {
 			background-image: url(../img/icons/move.svg);
+		}
+	}
+	&.ico-date {
+		&:before {
+			background-image: url(../img/icons/date.png);
+			background-size: 30px auto;
+		}
+	}
+	&.ico-view-toggle {
+		&:before {
+			background-image: url(../img/icons/view-hidden.png);
+			background-size: 20px auto;
+		}
+		&:after {
+			background-image: url(../img/icons/view-visible.png);
+			background-size: 20px auto;
+			opacity: 0;
+		}
+		&.active {
+			&:before {
+				opacity: 0;
+			}
+			&:after {
+				opacity: 1;
+			}
 		}
 	}
     &.ico-menu {

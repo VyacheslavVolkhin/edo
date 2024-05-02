@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <script src="./js/jquery.min.js" defer></script>
+    <script src="./js/slick.min.js" defer></script>
+    <script src="./js/jquery.fancybox.min.js" defer></script>
+    <script src="./js/jquery.maskedinput.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- wrap -->
+    <div class="wrap">
+
+
+        <!-- header -->
+        <header class="header">
+            <div class="inner-wrap">
+                <div class="logo-wrap">
+                    <a href="" class="logo">PRO-МТ.ЭДО</a>
+                </div>
+                <div class="menu-wrap popup-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-menu js-btn-popup-toggle"></a>
+                    <div class="popup-content-block js-popup-block">
+                        <ul class="menu">
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">дашборд</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu01.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">процессы</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu02.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">задачи</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu03.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu active">
+                                    <div class="button-title">файлы</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu04.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="btn-menu">
+                                    <div class="button-title">настройки</div>
+                                    <div class="button-ico">
+                                        <img src="./img/icons/menu05.png" alt="">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- page -->
+        <div class="page-full">
+
+            <!--page-actions-box-->
+            <div class="page-actions-box filter-include">
+                <div class="nav-inner-wrap">
+                    <div class="nav-wrap">
+                        <a href="" class="btn button-border">
+                            <div class="button-ico">
+                                <img src="./img/icons/arrow-back.svg" alt="">
+                            </div>
+                            <div class="button-title">Назад</div>
+                        </a>
+                    </div>
+                    <div class="title-wrap">
+                        <h1 class="page-title title-att"><a href="">Процессы</a></h1>
+                    </div>
+                </div>
+                <div class="filter-inner-wrap">
+                    <div class="check-wrap">
+                        <div class="frm-select">
+                            <input type="checkbox" id="filter">
+                            <label for="filter">Архив процессов</label>
+                        </div>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn button-att button-border">
+                            <div class="button-title">Создать новый процесс</div>
+                            <div class="button-ico">
+                                <img src="./img/icons/button-create.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="button-wrap">
+                        <a href="" class="btn button-border js-button-filter">
+                            <div class="button-title">Фильтры</div>
+                            <div class="button-ico">
+                                <img src="./img/icons/button-filter.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="button-wrap button-300">
+                        <select class="form-input inp-att" required>
+                            <option selected disabled hidden value="">Статус</option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!--/page-actions-box-->
+
+            <!--filter-box-->
+            <form action="/" class="filter-box js-filter">
+                <div class="frm-row">
+                    <div class="frm-field">
+                        <div class="frm-field-title">Постановщик</div>
+                        <select class="form-input" required>
+                            <option selected disabled hidden value="">Отдел (все)</option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                    <div class="frm-field">
+                        <div class="frm-field-title">Контрагент</div>
+                        <select class="form-input" required>
+                            <option selected disabled hidden value="">Отдел (все)</option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                    <div class="frm-field">
+                        <div class="frm-field-date-range">
+                            <div class="field-range">
+                                <div class="frm-field-title">Период С</div>
+                                <input type="text" class="form-input">
+                            </div>
+                            <div class="field-range">
+                                <div class="frm-field-title">Период ПО</div>
+                                <input type="text" class="form-input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frm-row">
+                    <div class="frm-field">
+                        <div class="frm-field-title">Процесс</div>
+                        <select class="form-input" required>
+                            <option selected disabled hidden value="">Наименование процесса (все)</option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                    <div class="frm-field">
+                        <div class="frm-field-title">Организация</div>
+                        <select class="form-input" required>
+                            <option selected disabled hidden value="">Отдел (все)</option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                    <div class="frm-field">
+                        <div class="frm-field-title">Статус</div>
+                        <select class="form-input" required>
+                            <option selected disabled hidden value=""></option><!--placeholder-->
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                            <option>Пункт списка</option>
+                        </select>
+                    </div>
+                    <div class="frm-field field-actions">
+                        <div class="field-action">
+                            <button type="submit" class="btn">Поиск</button>
+                        </div>
+                        <div class="field-action">
+                            <button type="reset" class="btn button-clear button-reset">
+                                <div class="button-title">Очистить</div>
+                                <div class="button-ico">
+                                    <img src="./img/icons/reset.png" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!--/filter-box-->
+
+            <!--table-box-->
+            <div class="table-box">
+                <div class="tbl-inner-wrap">
+                    <table class="tbl-main">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="all">
+                                        <label for="all"></label>
+                                    </div>
+                                </th>
+                                <th>Дата/время создания</th>
+                                <th>Тип процесса</th>
+                                <th>Постановщик</th>
+                                <th>Дедлайн</th>
+                                <th>Ответственный</th>
+                                <th>Статус</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tr-selected">
+                                <td>1</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk01">
+                                        <label for="chk01"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk02">
+                                        <label for="chk02"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk03">
+                                        <label for="chk03"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk04">
+                                        <label for="chk04"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr class="tr-att">
+                                <td>5</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk05">
+                                        <label for="chk05"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk06">
+                                        <label for="chk06"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk07">
+                                        <label for="chk07"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    <div class="frm-select select-clear">
+                                        <input type="checkbox" id="chk08">
+                                        <label for="chk08"></label>
+                                    </div>
+                                </td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Авансовый отчет</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>Отдел кадров</b></span> <br><span class="tbl-info">(Ведещий специалист)</span></td>
+                                <td>11.05.2023 / 11:05</td>
+                                <td>Иванов Иван Иванович <br><span class="tbl-info"><b>АХО</b></span> <br><span class="tbl-info">(Сотрудник отдела кадров)</span></td>
+                                <td>Новый</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--/table-box-->
+
+
+        </div>
+        <!-- /page -->
+
+
+
+    </div>
+    <!-- /wrap -->
+
+
+
+</body>
+
+</html>
